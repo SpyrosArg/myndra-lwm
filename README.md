@@ -63,11 +63,6 @@ Taxonomy of Security Risks in Large World Model
 Systems. v1.0.
 https://spyrosarg.github.io/myndra-lwm/
 
-## Related
-
-- [MYNDRA Framework](https://spyrosarg.github.io/myndra-framework-website/) 
-  AI security testing methodology for LLMs
-- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 ## License
 
