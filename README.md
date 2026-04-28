@@ -70,5 +70,4 @@ MIT License. Free to use, cite, extend, and adapt.
 
 ---
 
-*By Spyros Argyrakos, Senior Cybersecurity Engineer 
-and AI Security Lead. Creator of the MYNDRA Framework.*
+*By Spyros Argyrakos*
