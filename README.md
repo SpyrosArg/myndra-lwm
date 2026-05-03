@@ -91,5 +91,4 @@ MIT License. Free to use, cite, extend, and adapt.
 *By Spyros Argyrakos*
 
 *[myndra.gr](https://spyrosarg.github.io/myndra-framework-website/) ·
-[LinkedIn](https://www.linkedin.com/company/myndra/) ·
 [Agents Battlefield](https://agentsbattlefield.com)*
