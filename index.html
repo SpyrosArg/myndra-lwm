@@ -4,12 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MYNDRA-LWM · World Model Security Taxonomy</title>
-<meta name="description" content="MYNDRA-LWM: The first open practitioner framework for security risks in Large World Model systems. 10 attack categories organized by cognitive architecture component.">
+<meta name="description" content="MYNDRA-LWM: An open practitioner framework for security risks in Large World Model systems. 10 attack categories organized by cognitive architecture component.">
 <meta name="author" content="Spyros Argyrakos">
 <meta property="og:title" content="MYNDRA-LWM · World Model Security Taxonomy">
-<meta property="og:description" content="The first open practitioner framework for security risks in Large World Model systems. 10 attack categories organized by cognitive architecture.">
+<meta property="og:description" content="An open practitioner framework for security risks in Large World Model systems. 10 attack categories organized by cognitive architecture.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://spyrosarg.github.io/myndra-lwm/">
+<meta property="og:image" content="https://spyrosarg.github.io/myndra-lwm/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="theme-color" content="#0f172a">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="MYNDRA-LWM · World Model Security Taxonomy">
 <meta name="twitter:description" content="10 attack categories for Large World Model systems, organized by cognitive architecture component.">
@@ -76,6 +80,8 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.97);backdrop
 .hero-desc{max-width:560px;margin:0 auto 44px;font-size:16px;color:#94a3b8;line-height:1.75}
 .hero-btn{display:inline-block;font-size:13px;font-weight:600;color:#fff;background:var(--brand);padding:13px 32px;border-radius:8px;text-decoration:none;transition:all .2s;letter-spacing:-.1px}
 .hero-btn:hover{background:#4338CA;transform:translateY(-1px)}
+.hero-btn-ghost{background:transparent;border:1px solid #334155;color:#e2e8f0;margin-left:8px}
+.hero-btn-ghost:hover{background:rgba(255,255,255,.06);border-color:#64748b}
 
 .container{max-width:1100px;margin:0 auto;padding:0 32px}
 section{padding:88px 0}
@@ -235,6 +241,25 @@ footer{background:#0f172a;padding:56px 0 32px}
 .f-copy{font-size:12px;color:#334155}
 .f-version{font-size:11px;padding:3px 10px;border-radius:20px;color:#475569;background:#1e293b}
 
+.f-home{color:inherit;text-decoration:none;border-bottom:1px solid currentColor}
+@media (max-width:760px){
+  .nav-inner{padding:0 16px;gap:12px}
+  .logo-sep,.logo-sub,.nav-link,.nav-ext{display:none}
+  #hero{padding:64px 18px 60px}
+  .hero-title{font-size:44px;letter-spacing:-1.5px}
+  .hero-sub{font-size:18px}
+  .hero-btn{padding:12px 22px}
+  .hero-btn-ghost{margin-left:0;margin-top:10px}
+  .container{padding:0 18px}
+  section{padding:60px 0}
+  .compare-head,.compare-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .compare-col-h,.compare-cell{padding:10px 12px}
+  .arch-flow{flex-direction:column}
+  .arch-node{border-right:0;border-bottom:1px solid var(--border)}
+  .arch-sep{width:100%;height:24px;transform:rotate(90deg)}
+  .use-grid,.feature-cards{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr;gap:28px;padding:0 18px}
+}
 @media print{
   nav,#hero .hero-btn,.filter-row,.search-wrap,.sev-counter,.card-chevron,.etabs,.nav-ext,.nav-gh{display:none!important}
   #hero{background:#fff!important;padding:32px 0}
@@ -260,8 +285,8 @@ footer{background:#0f172a;padding:56px 0 32px}
       <a href="#architecture" class="nav-link">Architecture</a>
       <a href="#top10" class="nav-link">Top 10</a>
       <a href="#use" class="nav-link">How to use</a>
-      <a href="https://spyrosarg.github.io/myndra-framework-website/" target="_blank" class="nav-ext">myndra.gr</a>
-      <a href="https://github.com/SpyrosArg/myndra-lwm" target="_blank" class="nav-gh">
+      <a href="https://spyrosarg.github.io/myndra-framework-website/" target="_blank" rel="noopener" class="nav-ext">MYNDRA</a>
+      <a href="https://github.com/SpyrosArg/myndra-lwm" target="_blank" rel="noopener" class="nav-gh">
         <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
         GitHub
       </a>
@@ -279,8 +304,9 @@ footer{background:#0f172a;padding:56px 0 32px}
     <div class="hero-pill"><strong>v1.0</strong> · 2026</div>
     <div class="hero-pill">Open · Citable · Universal</div>
   </div>
-  <div class="hero-desc">The first open practitioner framework for security risks in autonomous AI systems that build and act on internal models of reality, organized by cognitive architecture component.</div>
+  <div class="hero-desc">An open practitioner framework for security risks in autonomous AI systems that build and act on internal models of reality, organized by cognitive architecture component.</div>
   <a href="#top10" class="hero-btn">Explore the Top 10</a>
+  <a href="paper/MYNDRA_LWM.pdf" class="hero-btn hero-btn-ghost">Read the paper (PDF)</a>
 </section>
 
 <section id="world-models">
@@ -476,7 +502,7 @@ footer{background:#0f172a;padding:56px 0 32px}
     <div>
       <div class="f-brand">MYNDRA-LWM</div>
       <div class="f-tagline">Large World Model Security Taxonomy<br>An open security project. Free to use, cite, and extend.</div>
-      <div class="f-cite">Argyrakos, S. (2026). MYNDRA-LWM: A Security<br>Taxonomy for Large World Model Systems. v1.0.<br>https://spyrosarg.github.io/myndra-lwm/</div>
+      <div class="f-cite">Argyrakos, S. (2026). MYNDRA-LWM: A Practitioner<br>Taxonomy of Security Risks in Large World Model<br>Systems. v1.0. https://spyrosarg.github.io/myndra-lwm/</div>
     </div>
     <div>
       <div class="f-col-title">Project</div>
@@ -485,10 +511,18 @@ footer{background:#0f172a;padding:56px 0 32px}
       <a href="#world-models" class="f-link">What are world models</a>
       <a href="#use" class="f-link">How to use</a>
     </div>
+    <div>
+      <div class="f-col-title">More</div>
+      <a href="paper/MYNDRA_LWM.pdf" class="f-link">The paper (PDF)</a>
+      <a href="https://github.com/SpyrosArg/myndra-lwm" class="f-link">GitHub</a>
+      <a href="https://spyrosarg.github.io/myndra-framework-website/" class="f-link">MYNDRA</a>
+      <a href="https://spyrosarg.github.io/AI-Threat-Modeling/" class="f-link">AI Threat Modeling</a>
+      <a href="https://spyrosarg.github.io/" class="f-link">More research</a>
+    </div>
 
   </div>
   <div class="footer-bottom">
-    <div class="f-copy">© 2026 Spyros Argyrakos · MYNDRA Framework</div>
+    <div class="f-copy">© 2026 <a href="https://spyrosarg.github.io/" class="f-home">Spyros Argyrakos</a> · MYNDRA Framework</div>
     <div class="f-version">MYNDRA-LWM v1.0 · Open Security Project</div>
   </div>
 </footer>

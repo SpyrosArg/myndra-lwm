@@ -8,7 +8,7 @@ models of reality. Organized around the five cognitive
 components that all world model systems share.
 
 Built by observing how AI agents fail in adversarial
-scenarios at [Agents Battlefield](https://agentsbattlefield.com),
+scenarios at Agents Battlefield,
 and grounded in world model cognitive architecture theory.
 
 ## Live taxonomy
@@ -90,5 +90,4 @@ MIT License. Free to use, cite, extend, and adapt.
 
 *By Spyros Argyrakos*
 
-*[myndra.gr](https://spyrosarg.github.io/myndra-framework-website/) ·
-[Agents Battlefield](https://agentsbattlefield.com)*
+*[MYNDRA](https://spyrosarg.github.io/myndra-framework-website/) · [More research](https://spyrosarg.github.io/)*
